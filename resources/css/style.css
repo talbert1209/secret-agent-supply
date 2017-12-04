@@ -81,3 +81,21 @@ body {
   font-weight: bold;
   margin-top: 1rem;
 }
+
+/* ---------------------------------------------- Navigation -------------------------------------- */
+
+/* Format nav-bar */
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  background-color: firebrick;
+}
+
+/* Format Nav */
+.nav {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  color: white;
+}
