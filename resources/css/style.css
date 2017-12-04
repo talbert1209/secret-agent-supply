@@ -1,0 +1,83 @@
+
+/* Assign base font-size */
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+/* Put a box around all containers */
+.container {
+  border: solid gray 1px;
+}
+
+/* ---------------------------------------------- Logo Bar ---------------------------------------- */
+
+/* Put logo together */
+.logo-companyname {
+  display: flex;
+  background-color: Black;
+  width: 960px;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding: 0.66rem 0;
+}
+
+/* Format image in title */
+#logo {
+  height: 1.5rem;
+  width: auto;
+  margin-right: 1rem;
+  margin-left: 0.5rem;
+}
+
+/* Align top bar */
+.company {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+/* ---------------------------------------------- Main Media -------------------------------------- */
+
+/* Format main media-board */
+.media-board {
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Format container inside main media-board */
+.inside-media-board {
+  width: 960px;
+}
+
+/* Format media-box */
+.media-box {
+  width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem;
+  margin-top: 9rem;
+  color: white;
+}
+
+/* format h4 elements in the main media-box */
+.media-box h4 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Format h1 elelents in the main meida-box */
+.media-box h1 {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
