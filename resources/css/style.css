@@ -161,3 +161,25 @@ body {
   background-color: black;
   color: white;
 }
+
+/* --------------------- Location and Hours ----- */
+
+/* Format location and hours space */
+.location-hours {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+/* Format location and hours boxes */
+.title-item {
+  width: 35%;
+}
+
+/* Forat title boxes */
+.title {
+  padding: 1rem 2rem;
+  color: white;
+  background-color: black;
+}
