@@ -183,3 +183,22 @@ body {
   color: white;
   background-color: black;
 }
+
+/* ---------------------------------------------- Footer ------------------------------------------ */
+
+/* Format footer container */
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  height: 5rem;
+}
+
+/* Format inside-footer container */
+.inside-footer {
+  width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+}
