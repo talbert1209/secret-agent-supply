@@ -99,3 +99,65 @@ body {
   padding: 0.75rem 0;
   color: white;
 }
+
+/* ---------------------------------------------- Content Section --------------------------------- */
+
+/* Format main container */
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+/* center the main content */
+.inside-main {
+  width: 960px;
+}
+
+/* --------------------- Products --------------- */
+
+/* Format the products container */
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+/* Format image AND text container */
+.product {
+  width: 30%;
+  border: solid black 4px;
+}
+
+/* Format image container */
+.img-product {
+  height: 9rem;
+  overflow: hidden;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Format product images that are tall */
+.product-img-t {
+  max-height: 100%;
+  width: auto;
+  display: block;
+}
+
+/* Format product images that are wide */
+.product-img-w {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Format product text */
+.product-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  background-color: black;
+  color: white;
+}
