@@ -9,9 +9,10 @@ body {
 }
 
 /* Put a box around all containers */
-.container {
+
+/* .container {
   border: solid gray 1px;
-}
+} */
 
 /* ---------------------------------------------- Logo Bar ---------------------------------------- */
 
@@ -98,6 +99,11 @@ body {
   justify-content: space-between;
   padding: 0.75rem 0;
   color: white;
+}
+
+/* Do not display menu-nav */
+.menu-nav {
+  display: none;
 }
 
 /* ---------------------------------------------- Content Section --------------------------------- */
@@ -201,4 +207,109 @@ body {
   align-items: center;
   justify-content: flex-start;
   color: white;
+}
+
+/* ---------------------------------------------- 1024px Media Query ------------------------------ */
+
+@media only screen and (max-width: 1024px) {
+  /* Do not display nav */
+  .nav {
+    display: none;
+  }
+
+  /* Display menu instead */
+  .menu-nav {
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem 0;
+    color: white;
+  }
+
+  /* Remove one product */
+  #glasses-box {
+    display: none;
+  }
+
+  /* Format product boxes */
+  .product {
+    width: 47%;
+  }
+
+  /* Format location and hours boxes */
+  .title-item {
+    width: 35%;
+  }
+}
+
+/* ---------------------------------------------- 470px Media Query ------------------------------- */
+
+@media only screen and (max-width: 470px) {
+  /* ------------------- Media Box -------------- */
+
+  /* Move media-box to bottom of inside-media-board */
+  .inside-media-board {
+    display: flex;
+    align-items: flex-end;
+    width: 470px;
+  }
+
+  /* Remove margin to place media-box agains nav */
+  .media-box {
+    margin: 0;
+  }
+
+  /* Format h4 elements in media-box */
+  .media-box h4 {
+    font-size: 0.77rem;
+  }
+
+  /* Format h1 elements in media-box */
+  .media-box h1 {
+    font-size: 1rem;
+  }
+
+  /* ------------------- Products --------------- */
+  .inside-main {
+    width: 470px;
+  }
+
+  /* Remove watch product */
+  #watch-box {
+    display: none;
+  }
+
+  /* Format products container */
+  .products {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Format product box */
+  .product {
+    width: 90%;
+  }
+
+  /* ------------------- Location & Hours ------- */
+
+  /* Set location-hours to column */
+  .location-hours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Format location and hours boxes */
+  .title-item {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
+
+  /* ------------------- Footer ----------------- */
+  .inside-footer {
+    width: 470px;
+    display: flex;
+    justify-content: center;
+  }
 }
