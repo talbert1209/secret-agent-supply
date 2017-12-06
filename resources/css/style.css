@@ -245,6 +245,11 @@ body {
 /* ---------------------------------------------- 470px Media Query ------------------------------- */
 
 @media only screen and (max-width: 470px) {
+  /* Format menu-nav */
+  .menu-nav {
+    width: 470px;
+  }
+
   /* ------------------- Media Box -------------- */
 
   /* Move media-box to bottom of inside-media-board */
